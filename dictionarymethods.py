@@ -19,3 +19,19 @@ print(college['name'])
 # trying to add a new key value pair
 college["location"]="Rafiganj, Aurangabad"
 print(f"Location is {college['location']}")
+
+#dictionary methods
+print(college.keys())
+print(college.values())
+
+keys=["Bihar ranking","State ranking","National ranking"]
+values=[22,2568,123456]
+m=college.fromkeys(keys,"Unknown")
+print(m)
+print(college.clear())
+
+#trying to update a key, or replace a key
+# college['Availablebranches']=college['dept']
+# del college['dept']
+# print(college)
+# print("Key updated successfully")
