@@ -1,9 +1,9 @@
 class StudentIdCard:
     college="Government Engg. College Aurangabad"
     branch="CSE(DS)"
-    def __init__(self,name,regno):
-        self.studname=name
-        self.idnum=regno
+    def __init__(self):
+        self.studname=input("Enter the name of the student: ")
+        self.idnum=int(input("Enter the registration number: "))
     def generateIdcard(self):
         self.idc=f'''
         
@@ -22,12 +22,12 @@ def border():
         print("-",end="")
 
 print(__name__)
-student1id=StudentIdCard("Pallavi Kumari",23153147028)
+student1id=StudentIdCard()
 
 student1id.generateIdcard()
 
 
-student2id=StudentIdCard("Akarsh Kumar Mishra",24153147901)
+student2id=StudentIdCard()
 
 
 student2id.generateIdcard()
