@@ -1,0 +1,6 @@
+f=open("io.py","r")
+data=f.read()
+f.close()
+f2=open("Writingsample.txt","w")
+f2.write(data)
+f2.close()
