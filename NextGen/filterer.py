@@ -9,3 +9,10 @@ def filterGreathan(l,num):
 
 def filterLessThan(l,num):
     return (x for x in l if x<num)
+
+def filterGreaterThanOrEqualTo(l,num):
+    return (x for x in l if x>=num)
+
+def filterLessThanOrEqualTo(l,num):
+    return (x for x in l if x<=num)
+
