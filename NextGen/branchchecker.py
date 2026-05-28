@@ -5,4 +5,5 @@ def branch_checker(branchcode,branchname):
     if regno[2] == code[0]:
         if regno[3] == code[1]:
             if regno[4] == code[2]:
-                print(f"You are a student of {branchname}")
+                return True
+    return False
