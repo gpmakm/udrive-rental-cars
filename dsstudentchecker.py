@@ -1,8 +1,8 @@
 num = input("Enter registration number: ")
-
-if num[2] == 1:
-    if num[3] == 5:
-        if num[4] == 3:
+l=tuple(num)
+if l[2] == '1':
+    if l[3] == '5':
+        if l[4] == '3':
             print("Data Science Student")
     
 else:
